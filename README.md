@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/57566402-e36b9f00-7380-11e9-808a-3be777595f3a.png">
+  <img src="https://user-images.githubusercontent.com/45159366/57566473-d307f400-7381-11e9-9467-99613bb636a9.png">
   <br />
 Overlook
 </h1>
@@ -13,7 +13,7 @@ Overlook
 -->
 
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/57566404-e5cdf900-7380-11e9-8dc3-305b5f7b9f9c.png">
+  <img src="https://user-images.githubusercontent.com/45159366/57566474-d69b7b00-7381-11e9-9b43-aef43fa1d450.png">
   <br />
 </h1>
 
@@ -21,7 +21,7 @@ Overlook
 
 ## Install
 
-    sudo snap install overlook
+    sudo snap install teamz-chat
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
