@@ -1,13 +1,13 @@
-name: overlook
+name: teamz-chat
 version: '0.1'
-summary: Mail client.
+summary: Group chat client.
 description: |
-Desktop client for Outlook mail.
+Desktop client for Microsoft Teams Web group chat.
 confinement: strict
 grade: stable
 
 parts:
-  overlook:
+  teamz-chat:
     plugin: nodejs
     source: app/
 
@@ -33,9 +33,8 @@ parts:
       - -node_modules
 
 apps:
-overlook:
-    command: env TMPDIR=$XDG_RUNTIME_DIR desktop-launch $SNAP/app/overlook
-    plugs:
+teamz-chat:
+    command: env TMPDIR=$XDG_RUNTIME_DIR desktop-launch $SNAP/app/teamz-chat
       - home
       - x11
       - unity7
