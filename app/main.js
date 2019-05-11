@@ -1,6 +1,6 @@
 const electron = require('electron');
 const { shell, app, BrowserWindow } = electron;
-const HOMEPAGE = 'https://send.firefox.com/'
+const HOMEPAGE = 'https://office.live.com/start/outlook.aspx'
 
 let mainWindow;
 
