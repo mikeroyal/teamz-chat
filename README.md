@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/57434142-2269eb00-71ef-11e9-9bcc-a988639b611e.png">
+  <img src="https://user-images.githubusercontent.com/45159366/57566402-e36b9f00-7380-11e9-808a-3be777595f3a.png">
   <br />
-Fsend
+Overlook
 </h1>
 
-<p align="center"><b>This is the snap for Fsend, an unofficial desktop client for Firefox Send. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
+<p align="center"><b>This is the snap for Overlook, an unofficial desktop client for Outlook mail. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -13,7 +13,7 @@ Fsend
 -->
 
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/57434145-239b1800-71ef-11e9-8825-a8ae3dce8d81.png">
+  <img src="https://user-images.githubusercontent.com/45159366/57566404-e5cdf900-7380-11e9-8dc3-305b5f7b9f9c.png">
   <br />
 </h1>
 
@@ -21,7 +21,7 @@ Fsend
 
 ## Install
 
-    sudo snap install fsend
+    sudo snap install overlook
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
