@@ -1,13 +1,13 @@
-name: fsend
+name: overlook
 version: '0.1'
-summary: Firefox Send.
+summary: Mail client.
 description: |
-Desktop client for Firefox Send.
+Desktop client for Outlook mail.
 confinement: strict
 grade: stable
 
 parts:
-  fsend:
+  overlook:
     plugin: nodejs
     source: app/
 
@@ -33,8 +33,8 @@ parts:
       - -node_modules
 
 apps:
- fsend:
-    command: env TMPDIR=$XDG_RUNTIME_DIR desktop-launch $SNAP/app/fsend
+overlook:
+    command: env TMPDIR=$XDG_RUNTIME_DIR desktop-launch $SNAP/app/overlook
     plugs:
       - home
       - x11
