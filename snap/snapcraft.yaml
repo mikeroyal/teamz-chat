@@ -1,0 +1,46 @@
+name: fsend
+version: '0.1'
+summary: Firefox Send.
+description: |
+Desktop client for Firefox Send.
+confinement: strict
+grade: stable
+
+parts:
+  fsend:
+    plugin: nodejs
+    source: app/
+
+    stage-packages:
+      - libnotify4
+      - libappindicator1
+      - libxtst6
+      - libnss3
+      - libxss1
+      - fontconfig-config
+      - gconf2
+      - libasound2
+      - pulseaudio
+
+    after:
+      - desktop-gtk2
+
+    build: node_modules/.bin/electron-builder
+    install: |
+      mkdir $SNAPCRAFT_PART_INSTALL/app
+      mv dist/linux-unpacked/* $SNAPCRAFT_PART_INSTALL/app
+    prime:
+      - -node_modules
+
+apps:
+ fsend:
+    command: env TMPDIR=$XDG_RUNTIME_DIR desktop-launch $SNAP/app/fsend
+    plugs:
+      - home
+      - x11
+      - unity7
+      - browser-support
+      - network
+      - gsettings
+      - pulseaudio
+      - opengl
