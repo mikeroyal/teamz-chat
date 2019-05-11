@@ -1,10 +1,10 @@
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/45159366/57566473-d307f400-7381-11e9-9467-99613bb636a9.png">
   <br />
-Overlook
+Teamz-Chat
 </h1>
 
-<p align="center"><b>This is the snap for Overlook, an unofficial desktop client for Outlook mail. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
+<p align="center"><b>This is the snap for Teamz-Chat, an unofficial desktop client for Microsoft Teams Web group chat. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
