@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/57566473-d307f400-7381-11e9-9467-99613bb636a9.png">
+  <img src="https://user-images.githubusercontent.com/45159366/57579180-4fb3d480-744d-11e9-859f-16d952f44ef9.png">
   <br />
 Teamz-Chat
 </h1>
